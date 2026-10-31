@@ -1,0 +1,8 @@
+# Wiz graphSearch pattern from public sources. Verify fields in your tenant's API Explorer.
+query GraphSearch($query: GraphEntityQueryInput, $first: Int, $after: String, $quick: Boolean) {
+  graphSearch(query: $query, first: $first, after: $after, quick: $quick, projectId: "*") {
+    totalCount
+    pageInfo { hasNextPage endCursor }
+    nodes { entities { id name type } }
+  }
+}

@@ -1,0 +1,10 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+schema.graphql
+schema*.json
+introspection*.json
+outputs/
+*.json
+!examples/*.json

@@ -1,0 +1,7 @@
+# Generic Relay pagination pattern. Replace `items` with a real connection field.
+query Page($first: Int!, $after: String) {
+  items(first: $first, after: $after) {
+    nodes { id }
+    pageInfo { hasNextPage endCursor }
+  }
+}

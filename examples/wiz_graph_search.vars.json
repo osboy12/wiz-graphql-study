@@ -1,0 +1,8 @@
+{
+  "first": 50,
+  "quick": true,
+  "query": {
+    "type": ["VIRTUAL_MACHINE"],
+    "select": true
+  }
+}

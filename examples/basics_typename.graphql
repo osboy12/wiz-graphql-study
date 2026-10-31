@@ -1,0 +1,2 @@
+# Smallest valid query: works on any GraphQL server.
+query Ping { __typename }

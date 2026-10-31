@@ -1,0 +1,2 @@
+# List every entry point (root Query field).
+query RootFields { __schema { queryType { fields { name description } } } }
